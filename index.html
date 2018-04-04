@@ -1,0 +1,304 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
+  <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+  <title>Nikhil CM - Portfolio</title>
+  
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+      <style>
+      body {
+  font-family: Open Sans;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 6em;
+}
+
+p {
+  font-size: 26px;
+}
+
+.header-image {
+  background: url("https://res.cloudinary.com/dbnugenbb/image/upload/v1458915250/apple-desk-laptop-working1280_zesrlm.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.header {
+  padding-top: 20%;
+  padding-bottom: 25%;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+}
+
+.info-background {
+  background-color: #F1F2F0;
+  background-size: cover;
+}
+
+.info {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #4F5458;
+}
+
+.larger-font {
+  font-size: 36px;
+}
+
+.smaller-font {
+  font-size: 16px;
+}
+
+.portfolio {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  color: #F1F2F0;
+  background-color: #4F5458;
+  background-size: cover;
+}
+
+.well {
+  background: transparent;
+  border: none;
+  padding: 5px;
+  color: #F1F2F0;
+}
+
+.well:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.contact {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: #F1F2F0;
+  color: black;
+}
+
+.footer {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.social-icon {
+  color: black;
+  padding: 30px;
+}
+
+.fa-twitter:hover {
+  color: #0084b4
+}
+
+.fa-github:hover {
+  color: #313335;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.fa-fire:hover {
+  color: gray;
+}
+
+.fa-envelope:hover {
+  color: #ea4335;
+}
+    </style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" >
+
+  <!-- CSS references; Google Fonts & FontAwesome -->
+<link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <!-- Navbar Header -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Nikhil CM</a>
+      </div>
+      <!-- END Navbar Header -->
+      <!-- List out the nav links, will be toggled if necessary -->
+      <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="#about"><i class="fa fa-info-circle"></i> About</a></li>
+          <li><a href="#portfolio"><i class="fa fa-folder"></i> Portfolio</a></li>
+          <li><a href="#contact"><i class="fa fa-at"></i> Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- END nav links -->
+  </nav>
+  <!-- END Navigation Bar -->
+
+  <!-- Home -->
+  <div class="header-image" id="home">
+    <div class="header container">
+      <h1>Nikhil CM</h1>
+      <hr>
+      <h3>Full Stack Web Developer</h3>
+    </div>
+  </div>
+  <!-- END Home -->
+
+
+  <!-- About -->
+  <div class="info-background" id="about">
+    <div class="info container">
+      <div class="row">
+        <div class="col-md-4 col-xs-8 col-xs-offset-2 col-md-offset-0">
+          <img src="image1.jpg" class="img-responsive img-circle">
+        </div>
+        <div class="col-md-8 col-xs-12">
+          <p class="larger-font text-center">About me</p>
+        </div>
+        <div class="col-md-8 col-xs-12">
+          <p>My name is Nikhil. I am a full stack web developer. I am currently working towards the full stack certification through Free Code Camp. And I love coding...!</p>
+        </div>
+        <div class="col-md-4 col-xs-10 col-sm-6 col-xs-offset-1 col-md-offset-0">
+          <p class="larger-font text-center">I am Good At:</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;<i class="devicon-nodejs-plain">Node JS</i> <br> &nbsp;&nbsp;&nbsp;
+                        <i class="devicon-javascript-plain"></i> JavaScript<br> &nbsp;&nbsp;&nbsp;
+
+                  <i class="devicon-angularjs-plain"></i> Angular JS<br> &nbsp;&nbsp;&nbsp;
+            <i class="devicon-html5-plain"></i> HTML 5<br> &nbsp;&nbsp;&nbsp;
+            <i class="fa fa-css3"></i> CSS3<br> &nbsp;&nbsp;&nbsp;
+            <i class="devicon-bootstrap-plain"></i> Bootstrap<br> &nbsp;&nbsp;&nbsp;
+            <i class="devicon-git-plain"></i> git<br>&nbsp;&nbsp;&nbsp;
+            <i class="devicon-linux-plain"></i> Linux</p>
+
+        </div>
+        <div class="col-md-4 col-xs-10 col-sm-6 col-xs-offset-1 col-md-offset-0">
+          <p class="larger-font text-center">What's next?</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="devicon-react-plain">
+            </i> React.js<br> &nbsp;&nbsp;&nbsp; &nbsp;             
+            <i class="devicon-meteor-plain"></i> Meteor<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="devicon-angularjs-plain"></i> Angular 4<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="devicon-d3js-plain"></i> D3.js<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="devicon-ruby-plain"></i> Ruby On Rails</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END About -->
+
+
+  <!-- Portfolio -->
+  <div class="portfolio" id="portfolio">
+    <div class="container">
+      <p class="larger-font">Portfolio</p>
+      <div class="row">
+        <a href="#" target="_blank">
+          <div class="col-md-4 well smaller-font">
+            <img src="https://res.cloudinary.com/dbnugenbb/image/upload/v1458923818/Tribute-Page720_ixuhmm.jpg" class="img-responsive"></img>
+            <p>Tribute Page</p>
+          </div>
+        </a>
+        <a href=#" target="_blank">
+          <div class="col-md-4 well smaller-font">
+            <img src="https://res.cloudinary.com/dbnugenbb/image/upload/v1467597937/Bravery_oxx787.png" class="img-responsive"></img>
+            <p>Ludum Dare Entry</p>
+          </div>
+        </a>
+        <a href="#" target="_blank">
+          <div class="col-md-4 well smaller-font">
+            <img src="https://res.cloudinary.com/dbnugenbb/image/upload/v1509046272/SOA_yvkobx.png" class="img-responsive"></img>
+            <p>SOA Website</p>
+          </div>
+        </a>
+      </div>
+      <div class="row">
+        <div class="col-md-4 well smaller-font">
+          <img src="https://res.cloudinary.com/dbnugenbb/image/upload/v1458931870/Coming-Soon2_brdvim.png" class="img-responsive"></img>
+          <p>Wikipedia Viewer</p>
+        </div>
+        <div class="col-md-4 well smaller-font">
+          <img src="https://res.cloudinary.com/dbnugenbb/image/upload/v1458931870/Coming-Soon2_brdvim.png" class="img-responsive"></img>
+          <p>JavaScript Calculator</p>
+        </div>
+        <div class="col-md-4 well smaller-font">
+          <img src="https://res.cloudinary.com/dbnugenbb/image/upload/v1458931870/Coming-Soon2_brdvim.png" class="img-responsive"></img>
+          <p>Simon Game</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END Portfolio -->
+
+
+  <!-- Contact -->
+  <div class="contact" id="contact">
+    <div class="container">
+      <p class="larger-font">Contact Me</p>
+      <p>
+        <a href="https://twitter.com/nikicm4all" target="_blank"><i class="fa fa-twitter fa-3x social-icon"></i></a>
+        <a href="https://github.com/softmantk" target="_blank"><i class="fa fa-github fa-3x social-icon"></i></a>
+        <a href="https://www.linkedin.com/in/nikhilcm" target="_blank"><i class="fa fa-linkedin fa-3x social-icon"></i></a>
+        <a href="https://www.freecodecamp.com/softmantk" target="_blank"><i class="fa fa-fire fa-3x social-icon"></i></a>
+        <a href="mailto:iam@nikhilcm.com"><i class="fa fa-envelope fa-3x social-icon"></i></a>
+    </div>
+  </div>
+  <!-- END Contact -->
+
+
+  <!-- Footer -->
+  <div class="footer">
+    <p class="smaller-font">Written and coded by <a href="#" target="_blank">Nikhil CM</a>.</p>
+  </div>
+  <!-- END Footer -->
+
+
+</body>
+  
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+  
+  
+  
+
+</body>
+
+</html>
